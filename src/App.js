@@ -19,6 +19,7 @@ import Customer from './CustomerDashBoard/Customer';
 import NotFound from './GrabBite/NotFound';
 
 import { RestaurantProvider } from './Restorant/RestorantContext';
+import Blog from './GrabBite/Blog';
 
 const Loading = () => (
   <div className="content">
@@ -62,6 +63,8 @@ const App = () => {
               <Route path="/resto" element={<Restorant />} />
               <Route path="/list/:restaurantName" element={<ProductList />} />
               <Route path="/customer" element={<Customer />} />
+              <Route path="/blog" element={<Blog />} />
+
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Router>
