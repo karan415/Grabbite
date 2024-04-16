@@ -1,11 +1,17 @@
-import React, { useState } from 'react'
-import BlogData from './BlogData'
+import React from 'react'
 
-export const Blog = () => {
-  const [data,setData]=useState(BlogData)
+const Blog = () => {
   return (
     <>
-    
+    <section>
+    <div className="container">
+     <div className="flex_box">
+     
+     </div>
+    </div>
+    </section>
     </>
   )
 }
+
+export default Blog
