@@ -1,0 +1,188 @@
+.imageBox {
+    float: left;
+    width: 100%;
+    display: block;
+    padding: 0 10px;
+}
+
+.slider-img {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.slider-img img {
+    width: 100%;
+    float: left;
+    width: 100%;
+}
+
+section.deal-section.p-5 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    left: -5%;
+}
+
+section.deal-section.p-5 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    right: -5%;
+}
+
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right,
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    background: transparent;
+}
+
+.react-multiple-carousel__arrow--right::before {
+    content: "";
+    background: url(/src/images/nextIcon.png);
+    width: 50px;
+    height: 54px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.react-multiple-carousel__arrow--left::before {
+    content: "";
+    background: url(/src/images/previcon.svg);
+    width: 50px;
+    height: 54px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.position.react-multiple-carousel__arrow--left::before {
+    left: 20px;
+}
+
+section.deal-section.py-5 .react-multiple-carousel__arrow--left {
+    left: calc(-8% + 1px);
+}
+
+section.deal-section.py-5 .react-multiple-carousel__arrow--right {
+    right: calc(-8% + 1px);
+}
+
+.carouselBox1 {
+    padding: 14px;
+    display: inline-block;
+}
+
+.react-multiple-carousel__arrow--left::before,
+.react-multiple-carousel__arrow--right::before {
+    content: " " !important;
+}
+
+
+.react-multi-carousel-dot-list {
+    bottom: -36px !important;
+}
+
+/* carousel cs start here*/
+.react-multi-carousel-list {
+    position: static !important;
+}
+
+.container-fluid.max90 {
+    position: relative;
+}
+
+.carouselBox {
+    position: relative;
+    max-width: 100%;
+
+    margin: auto;
+}
+
+.carouselBox .react-multi-carousel-list {
+    width: 80%;
+    margin: auto;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    section.deal-section.p-5 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+        left: -4%;
+    }
+
+    section.deal-section.p-5 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+        right: -4%;
+    }
+
+    .react-multiple-carousel__arrow--left::before {
+        width: 33px;
+    }
+
+    .react-multiple-carousel__arrow--right::before {
+        width: 33px;
+    }
+
+    .react-multi-carousel-dot-list {
+        display: none;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .react-multiple-carousel__arrow--left {
+        left: calc(0% + 1px);
+    }
+
+    .react-multiple-carousel__arrow--right {
+        right: calc(0% + 1px);
+    }
+
+    section.deal-section.p-5 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+        left: -3%;
+    }
+
+    section.deal-section.p-5 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+        right: -3%;
+    }
+
+}
+
+@media (max-width:767px) {
+    .react-multiple-carousel__arrow--left::before {
+        width: 30px;
+    }
+
+    .react-multiple-carousel__arrow--right::before {
+        width: 30px;
+    }
+
+    .react-multi-carousel-dot-list {
+        display: none;
+    }
+
+    .custom-bg {
+        max-width: 330px;
+    }
+
+    .carouselBox1 {
+        max-width: 300px;
+    }
+
+    .carouselBox ul.react-multi-carousel-dot-list,
+    section.deal-section.p-5 ul.react-multi-carousel-dot-list {
+        display: none;
+    }
+}
+
+@media(max-width:575px) {
+    section.deal-section.py-5 .react-multiple-carousel__arrow--right {
+        right: calc(-2% + 1px);
+    }
+
+    section.deal-section.py-5 .react-multiple-carousel__arrow--left {
+        left: calc(-2% + 1px);
+    }
+}
+
+@media(min-width:1025px) and (max-width:1140px) {
+
+    section.deal-section.p-5 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right
+    {
+        right: -2%;
+    }
+    section.deal-section.p-5 button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left{
+left: -2%;
+    }
+}

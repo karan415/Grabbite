@@ -1,0 +1,231 @@
+.details form label {
+    width: 100%;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.details form input,
+.details form select {
+    width: 100%;
+    padding: 5px !important;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+.order-box ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 15px 6px;
+    text-transform: capitalize;
+}
+
+.order-box ul li svg.col-2 {
+    text-align: left !important;
+    width: auto;
+}
+
+.order-box ul li:first-child {
+    background-color: rgba(217, 217, 217, 0.59);
+    color: #000;
+    margin-top: 45px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 9px 20px;
+}
+
+.order-box ul li:last-child {
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+
+.order-box ul li span:last-child {
+    font-weight: 700;
+}
+
+.order-box-2 {
+    border: 1px dashed;
+    padding: 20px;
+    margin: 40px 12px;
+}
+
+.col-lg-6.end {
+    display: flex;
+    justify-content: end;
+}
+
+.order-box {
+    max-width: 500px;
+}
+
+select#inputGroupSelect01 {
+    border: 1px solid;
+    outline: none;
+    padding: 12px;
+}
+
+.order-box-2 input[type="text"] {
+    margin: 10px 0px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 100%;
+}
+
+.order-box-2 input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.order-box-2 input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0px;
+    background: rgba(128, 65, 21, 1);
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+
+.order-box-2 .row .col-md-6 {
+    padding: 0 !important;
+    width: 48.6%;
+}
+
+
+.checkout.p-5 .col-lg-8 {
+    padding: 0;
+}
+
+.checkout label {
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.order-box-2 input[type="radio"] {
+    margin: 16px 0px;
+}
+
+@media (max-width:767px) {
+    .checkout.p-5 {
+        padding: 20px 0 !important;
+    }
+   .order-box ul li span:last-child {
+    font-size: 14px;
+    text-align: right;
+}
+    .row.myrow .col-lg-4.sm-4 {
+        width: 32.33%;
+    }
+    section.checkout .row .col-lg-6,
+    section.checkout .row .col-12,
+    section.checkout .row .col-lg-4 {
+        padding: 0px;
+    }
+
+    .checkout h2 {
+        font-size: 20px;
+    }
+
+    section.checkout .row .col-lg-6,
+    section.checkout .row .col-12,
+    section.checkout .row .col-lg-4 {
+        padding: 0px;
+    }
+
+    .details form input.formbtn {
+        margin: 10px 0px !important;
+    }
+
+    .order-box-2 {
+        margin: 20px 00px !important;
+        padding: 10px;
+    }
+
+    .order-box-2 .row {
+        padding: 0px !important;
+    }
+
+    .order-box-2 h4 {
+        font-size: 18px;
+    }
+
+    select#inputGroupSelect01,
+    .order-box-2 input[type="number"] {
+        padding: 8px;
+    }
+
+    .order-box-2 input[type="text"] {
+        padding: 8px;
+    }
+
+    .order-box-2 input[type="submit"] {
+        padding: 9px;
+        font-size: 16px;
+    }
+
+   .order-box ul li {
+    padding: 9px 6px !important;
+    font-size: 14px;
+}
+
+  .order-box ul li:first-child {
+    font-weight: 600;
+    padding: 9px 8px;
+    margin: 0px 0px 10px;
+}
+
+    .myrow.py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+}
+
+@media(min-width:575px) and (max-width:1024px) {
+    .order-box-2 input[type="text"] {
+        margin: 23px 0px;
+    }
+    section.checkout.p-5 {
+        padding: 20px 0px !important;
+    }
+    .order-box {
+        max-width: 100%;
+    }
+    section.checkout.p-5 .col-lg-8 {
+        width: 48%;
+        padding-right: 12px !important;
+    }
+    
+    section.checkout.p-5 .col-lg-4.end {
+        width: 50%;
+    }
+    .row.myrow.align-items-center.py-2 .col-lg-4 {
+        width: 33%;
+    }
+}
+
+
+section.checkout.p-5 h6 {
+    color: #000;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.details form input.formbtn {
+    margin: 10px !important;
+    padding: 12px 57px !important;
+    width: auto;
+    background: #d07d2c;
+}
+.order-box-2 .row {
+    justify-content: space-between;
+}

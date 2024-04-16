@@ -1,0 +1,66 @@
+section.address_book {
+    background: #F1F1F1;
+}
+
+.address_box {
+    border-radius: 10px;
+    background: #FFF;
+    padding: 30px;
+}
+
+.address_box h5 {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.address_box h5 span {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    /* 190.909% */
+    text-transform: capitalize;
+}
+
+button.btn.btn-primary {
+    font-size: 20px;
+    font-style: normal;
+    text-transform: capitalize;
+    margin: 20px 0px 0px;
+}
+
+.address_box:hover {
+    background: #c9946080;
+    border: 1px solid;
+}
+
+@media (max-width:768px) {
+    .address_box h5 span {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .address_box h5 span {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .address_box h5 {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+   button.btn.btn-primary {
+    font-size: 16px;
+    padding: 10px 2px;
+}
+
+    h5.contact_number {
+        padding-top: 10px;
+    }
+}

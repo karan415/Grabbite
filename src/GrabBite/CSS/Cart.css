@@ -1,0 +1,230 @@
+h2 span {
+    color: #D07D2C;
+}
+
+.cart-bx .table-responsive table.table tr {
+    padding: 10px;
+    background: white;
+    vertical-align: middle;
+}
+
+.cart-bx .table-responsive table.table tbody tr td {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+.inner-list {
+    gap: 90px;
+}
+
+button.coupon,
+button.code,
+button.checkout {
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: #FD9D3E !important;
+    color: #000;
+    font-size: 18px;
+    padding: 8px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.cart-bx table {
+    border: none !important;
+}
+
+button.code {
+    color: #FFF !important;
+    background: #4F270B !important;
+}
+
+button.checkout a {
+    text-decoration: none;
+    color: #FFF !important;
+}
+
+button.w-50 {
+    width: 46% !important;
+    margin: 0px 11px;
+}
+
+.cart-bx {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: #ccc;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.cart-bx .table-responsive table.table tbody tr td img {
+    max-width: 60px;
+}
+
+.cart-bx .table-responsive table.table tbody tr td:first-child,
+.cart-bx .table-responsive table.table thead tr th:first-child {
+    text-align: left;
+    padding: 10px 27px;
+}
+
+.quantity-box {
+    max-width: 70px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 4px;
+}
+
+.quantity-box span {
+    padding: 5px;
+}
+
+.table thead th:nth-child(2),
+.table tbody td:nth-child(2) {
+    text-align: left;
+}
+
+@media (max-width:600px) {
+    .cart.p-5 {
+        padding: 20px !important;
+    }
+    .coupon-apply .checkout {
+        font-size: 18px;
+    }
+
+    .table thead th:nth-child(2),
+    .table tbody td:nth-child(2) {
+        width: 100%;
+    }
+
+    .cart-bx .table-responsive table.table tr {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 1px solid !important;
+    }
+
+    .cartbtns {
+        display: block !important;
+    }
+
+    .coupon-apply .col-lg-6 {
+        padding: 0 !important;
+    }
+
+    .cartbtns input.w-75.p-2 {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .cartbtns button.p-2.btn.btn-success {
+        width: 100%;
+        padding: 12px !important;
+    }
+
+    .cart-bx .table-responsive table.table tbody tr td:first-child,
+    .cart-bx .table-responsive table.table thead tr th:first-child {
+        padding: 10px 0;
+        width: 100% !important;
+    }
+
+    .inner-list {
+        gap: 7px;
+        padding: 0px !important;
+    }
+
+    .cart-bx .table-responsive table.table tbody tr td {
+        font-size: 18px;
+        text-align: left;
+        padding: 10px 0;
+    }
+
+    .quantity-box {
+        margin: 0;
+    }
+
+    .ps-5 {
+        padding-left: 1rem !important;
+    }
+
+    .cart-bx .table-responsive table.table tbody tr td img {
+        max-width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+
+    button.coupen,
+    button.code,
+    button.checkout {
+        font-size: 12px;
+        padding: 14px;
+    }
+
+    button.w-50 {
+        width: 100% !important;
+        margin: 15px 0px;
+        padding: 13px;
+        font-size: 11px;
+    }
+
+    .pe-5 {
+        padding-right: 1rem !important;
+    }
+
+    .col-lg-6.pe-5.py-5 {
+        padding: 0 0 1rem !important;
+    }
+
+    .cart-bx {
+        width: 100%;
+        overflow: scroll;
+        padding: 0;
+        background: transparent;
+    }
+
+    section.cart.p-5 {
+        padding: 20px 0px !important;
+    }
+
+}
+
+@media (min-width:565px) and (max-width:1024px) {
+    .inner-list {
+        gap: 58px;
+        padding: 0 !important;
+    }
+
+
+    .ps-5 {
+        padding-left: 0rem !important;
+    }
+
+    button.w-50 {
+        width: 100% !important;
+        margin: 19px 0px;
+    }
+
+    .pe-5 {
+        padding-right: 1rem !important;
+    }
+    
+}
+
+@media (min-width:1500px) {
+    .cart-bx .table-responsive table.table tbody tr td {
+        font-size: 18px;
+    }
+
+    .cart-bx {
+        max-width: 1240px;
+    }
+
+    .cart-bx .table-responsive table.table tbody tr td img {
+        max-width: 80px !important;
+    }
+
+}
+@media(min-width:501px) and (max-width:700px){
+   
+}

@@ -1,0 +1,248 @@
+footer.custom-footer {
+    background: #CB7929;
+}
+
+.footer-logo {
+    max-width: 114px;
+    padding-bottom: 10px;
+}
+
+ul.first-bold li:first-child {
+    font-size: 28px;
+    font-weight: 700;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+ul.menus li {
+    color: #fff;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+.footer-content,
+.footer-content p {
+    color: #fff;
+}
+
+.instamenu {
+    flex-wrap: wrap;
+}
+
+.instamenu li img {
+    max-width: 77px;
+}
+
+.instamenu li {
+    padding: 9px;
+}
+
+ul.menus.first-bold li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright.p-3 {
+    background: #4f270b;
+}
+
+.copyright.p-3 {
+    color: #fff;
+}
+
+li.social.icon svg {
+    color: #cb7929;
+}
+
+li.social.icon {
+    background: #fff;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.open_hours {
+    max-width: 387px;
+}
+
+ul.menus li span svg {
+    font-size: 19px;
+    margin-right: 7px;
+}
+
+@media(min-width:1025px) and (max-width:1600px) {
+    .instamenu li img {
+        max-width: 60px;
+    }
+    h5.profile-user-name {
+        font-size: 12px !important; 
+    }
+    button.btn.profile-edit-btn {
+        font-size: 8px !important;
+    }
+    footer .profile-stats ul li {
+        font-size: 10px !important;
+    }
+
+    ul.menus li {
+        color: #fff;
+        padding-bottom: 12px;
+        font-size: 15px;
+    }
+
+    .open_hours {
+        max-width: 300px;
+    }
+    footer .profile-bio p {
+        font-size: 10px !important;
+    }
+}
+
+@media(max-width:600px) {
+    .open_hours {
+        max-width: 263px;
+    }
+}
+
+@media (max-width:700px) {
+    .copyright.p-3 {
+        padding: 15px 0 !important;
+    }
+
+    .copyright span {
+        font-size: 11px;
+    }
+
+    .copyright ul li {
+        font-size: 12px;
+        padding: 0px !important;
+    }
+
+    .copyright .row .col {
+        padding: 0px !important;
+        width: auto !important;
+    }
+
+}
+
+
+
+
+.instamenu .col.menubar {
+    flex-basis: 31% !important;
+}
+@media(min-width:992px) and (max-width:1023px) {
+    .instamenu li img {
+        max-width: 38px;
+    }
+
+    ul.menus li {
+        font-size: 15px;
+    }
+
+    .open_hours {
+        max-width: 240px;
+    }
+    
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    footer.py-5.custom-footer .col-lg-3 {
+        width: 25%;
+        padding: 0;
+    }
+    footer.py-5.custom-footer .row {
+        gap: 4px;
+    }
+    footer.py-5.custom-footer .col-lg-2 {
+        width: 18%;
+        padding: 0;
+    }
+
+    footer.py-5.custom-footer .col-lg-4 {
+        width: 30%;
+        padding: 0;
+    }
+
+    footer.py-5.custom-footer {
+        padding: 20px 10px !important;
+    }
+    footer.py-5.custom-footer ul.first-bold li:first-child {
+        font-size: 20px;
+    }
+    footer.py-5.custom-footer ul.menus li {
+        color: #fff;
+        padding-bottom: 12px;
+        font-size: 14px;
+    }
+    footer.py-5.custom-footer .open_hours {
+        max-width: 191px;
+    }
+    footer.py-5.custom-footer p {
+        font-size: 14.83px;
+        font-weight: 400;
+    }
+}
+
+.profile.row {
+    flex-wrap: wrap;
+}
+
+.profile-stats ul li {
+    font-size: 12px !important;
+    color: #000 !important;
+    font-weight: 500 !important;
+    padding: 3px !important;
+    width: auto !important;
+}
+
+h5.profile-user-name {
+    font-size: 17px;
+    color: #000;
+    margin: 0;
+}
+
+
+span.profile-stat-count {
+    font-weight: normal;
+}
+
+.profile-bio p {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0;
+}
+
+button.btn.profile-edit-btn {
+    border: 1px solid;
+    font-size: 11px;
+    padding: 5px 7px !important;
+    line-height: normal;
+}
+.profile-image img {
+    border-radius: 100%;
+    max-width: 90px;
+}
+.position ul.menus li span {
+    background: #fff;
+    color: #cb7929;
+    text-align: center;
+    border-radius: 100%;
+    padding: 2px 5px;
+    margin-right: 8px;
+}
+
+.position ul.menus li span svg {
+    margin: 0px;
+}
+.profile.row {
+    border-bottom: 1px solid;
+}
+.profile-user-settings {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

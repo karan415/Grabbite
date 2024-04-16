@@ -1,0 +1,201 @@
+.dish-img img {
+    margin-top: -103px;
+    position: relative;
+    left: 0px;
+    max-width: 130px;
+}
+
+section.custom-menu {
+    background-image: url('/src/Img/menubgimg.png');
+    background-size: cover;
+}
+
+button.btn_primary {
+    text-decoration: none;
+    border-radius: 15px;
+    background: #6B3707;
+    color: #FFFEFE;
+    font-size: 20.83px;
+    text-transform: capitalize;
+    border: none;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.card-box ul li img {
+    max-width: 120px;
+}
+
+.card-box ul:nth-child(1) {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.col.menubar {
+    float: left;
+    width: 20%;
+    margin: 50px 0px;
+}
+
+
+span.red {
+    color: #D07D2C;
+
+}
+
+.dish-img {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.dish-img img.menu-img {
+    display: inline-block;
+    position: relative;
+    margin-top: -99px;
+    left: 0;
+}
+
+.card-box ul:nth-child(1) {
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+
+
+@media (min-width:700px) and (max-width:1024px) {
+
+    .flex_box {
+        gap: 10px;
+    }
+
+    .card-box {
+        padding: 0px;
+    }
+
+    h3 {
+        font-size: 26.83px;
+    }
+}
+
+@media (max-width:575px) {
+    .col.menubar {
+        width: 48%;
+    }
+
+    .delecious.customr_delicious button.btn.btn-primary.bg-light.py-3.p-5.rounded-4.fw-bold {
+        width: auto !important;
+        padding: 15px 45px !important;
+    }
+
+    section.custom-menu.py-5 {
+        padding: 20px 0px 0px !important;
+    }
+
+    .dish-img img {
+        max-width: 126px;
+    }
+
+    button.btn_primary {
+        font-size: 12.83px;
+        padding: 9px;
+    }
+
+
+    .card-bx p {
+        padding-bottom: 0;
+    }
+
+    h3 {
+        font-size: 24.83px;
+    }
+
+    .card-bx {
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 0px !important;
+    }
+
+    section.custom-menu .flex_box {
+        gap: 10px;
+        margin-top: 45px !important;
+    }
+
+    .flex_box {
+        gap: 10px;
+    }
+
+    .card-bx h5 {
+        font-size: 18px;
+    }
+}
+
+section.custom-menu .flex_box {
+    margin-top: 70px;
+}
+
+.card-bx {
+    padding: 10px;
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .products-data .col.menubar {
+        flex-basis: 30%;
+        padding: 10px;
+    }
+
+    .card-bx p {
+        font-size: 17.83px;
+    }
+
+    section.custom-menu .flex_box,
+    section.custom-popular .flex_box {
+        gap: 15px;
+    }
+
+    .card-bx {
+        padding: 0;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    .dish-img img {
+        max-width: 113px;
+    }
+
+    .card-bx h5 {
+        font-size: 19.83px;
+    }
+
+    p {
+        font-size: 17.83px;
+        font-weight: 400;
+    }
+
+    .card-bx button.btn_primary {
+        font-size: 14.83px;
+    }
+
+    .delecious.customr_delicious h4 {
+        font-size: 25px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .col.menubar {
+        flex-basis: 22% !important;
+        padding: 8px !important;
+    }
+
+    .card-bx {
+        padding: 0;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1024px) {
+    .col.menubar {
+        padding: 13px !important;
+    }
+}

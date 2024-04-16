@@ -1,0 +1,57 @@
+
+@media (min-width:1024px) and (max-width:1440px) {
+    li.right {
+        right: -4%;
+    }
+
+    .food-bg {
+        background-size: contain;
+    }
+
+    p.description {
+        font-size: 15.83px;
+    }
+
+    h3.heading {
+        font-size: 25.83px;
+    }
+
+    section.deal-section.py-5 .react-multiple-carousel__arrow--right {
+        right: calc(0% + 1px);
+    }
+
+    section.deal-section.py-5 .react-multiple-carousel__arrow--left {
+        left: calc(0% + 1px);
+    }
+
+    .react-multiple-carousel__arrow--left::before,
+    .react-multiple-carousel__arrow--right::before {
+        width: 45px;
+        height: 40px;
+    }
+    .icons {
+        padding: 0px 15px;
+    }
+
+
+    a.menu-btn {
+        font-size: 14.83px;
+    }
+
+    h2.text {
+        font-size: 48.321px;
+    }
+
+    p.des-cription {
+        font-size: 31.034px;
+    }
+
+    a.burger-btn {
+        font-size: 18.928px;
+    }
+
+    .carouselBox1 {
+        max-width: 628px;
+    }
+}
+

@@ -1,0 +1,526 @@
+a.nav-link.active svg {
+    margin-right: 11px;
+    font-size: 28px;
+}
+
+.bg-white.py-2.collapse-inner.rounded h6 {
+    font-size: 19px;
+}
+
+header.admin-header {
+    background: #804115;
+}
+
+.bg-white.py-2.collapse-inner.rounded a {
+    color: #000 !important;
+    display: block;
+    padding: 8px;
+    font-size: 18px;
+}
+
+table.table {
+    border: 1px solid;
+}
+
+
+.bg-white.py-2.collapse-inner.rounded {
+    padding: 9px;
+}
+
+th.col {
+    padding: 25px 0px !important;
+    text-align: center;
+
+}
+
+td.col {
+    padding: 24px 0px;
+    text-align: center;
+}
+
+
+
+.pro1 {
+    width: 50%;
+}
+
+.width25 {
+    width: 25rem;
+}
+
+.table thead th {
+    vertical-align: baseline;
+    border-bottom: 2px solid #000000;
+    background: #cb7929;
+    color: #Fff;
+    padding: 20px;
+    border: none;
+    width: 100%;
+}
+
+tbody td a {
+    color: #361a05;
+    font-size: 20px;
+}
+
+.product-list {
+    max-width: 972px;
+    margin: 0 auto;
+}
+
+.main-profile {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 37px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+}
+
+input.w-100 {
+    padding: 10px;
+}
+
+label.w-100 {
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+.user-img {
+    background: #cccccc4d;
+    max-width: 194px;
+    min-height: 131px;
+}
+
+.security-info h3 {
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.security-info h4 {
+    font-weight: 600;
+}
+
+h4.mail-box {
+    font-weight: 300;
+    padding: 15px 0px;
+}
+
+.ad-inner button.btn.btn-secondary {
+    font-size: 14px;
+    padding: 4px 22px;
+    margin: 0px 0px 13px 0px;
+}
+
+.profile-info.py-4 h6 {
+    color: #8d8282;
+}
+
+.security-info h3 span svg {
+    font-size: 13px;
+}
+
+.security-info h3 span {
+    background: #361a05;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 2px 11px 10px 0px;
+}
+
+td.column4:nth-child(5) svg {
+    font-size: 10px;
+    margin-right: 9px;
+}
+
+th.column4,
+td.column4 {
+    padding: 20px 21px;
+}
+
+.show-entries {
+    display: flex;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+}
+
+.topbar-tables {
+    max-width: 972px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+table.order-detailss td.col img {
+    border-radius: 100%;
+    max-width: 42px;
+}
+
+img.img-profile.rounded-circle.max-width10 {
+    max-width: 40px;
+}
+
+.allorder {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.user-details {
+    border: 1px solid #ccc;
+    padding: 18px;
+}
+
+.user-information ul li {
+    padding: 9px;
+    font-size: 20px;
+}
+
+.allorder h3 {
+    text-transform: capitalize;
+}
+
+.summry-inner ul li {
+    font-size: 20px;
+    margin: 22px 0px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summry-inner {
+    max-width: 450px;
+    padding: 20px;
+}
+
+.pro-inner {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.addproduct h2 {
+    color: #000 !important;
+}
+
+.proimg {
+    float: left;
+    width: 33.333%;
+}
+
+.table.border td:last-child {
+    font-weight: bold;
+}
+
+.proinner {
+    float: right;
+    width: 66%;
+    padding: 0px 0px 0px 20px;
+}
+
+.pro-inner {
+    float: left;
+    width: 100%;
+}
+
+.proinner ul li {
+    font-size: 20px;
+    margin: 6px 0px;
+}
+
+.proinner ul li span:last-child {
+    border: 2px solid;
+    padding: 0px 20px;
+}
+
+/* .proimg{
+    background-image: url('../images/Rectangle\ 43.png');
+    background-position: center;
+    background-size: cover;
+} */
+.user-information ul li span {
+    font-weight: 600;
+}
+
+.summry-inner ul li span {
+    font-weight: 700;
+}
+
+.table.border td {
+    padding: 20px !important;
+    vertical-align: middle;
+}
+
+.table.border th {
+    padding: 20px !important;
+    vertical-align: middle;
+}
+
+.table.border tr {
+    border: 1px solid #ccc;
+}
+
+table.table.border.colored thead th {
+    background: #ccc;
+    color: #000;
+    border: none;
+}
+
+.user-information ul li a {
+    color: #000 !important;
+}
+
+.user-information ul li svg {
+    margin-right: 19px;
+    font-size: 26px;
+}
+
+@media (max-width:575px) {
+    section.order-section.p-5 {
+        padding: 0px !important;
+    }
+
+    .user-information ul li {
+        font-size: 15px;
+    }
+
+    .user-information ul li svg {
+        font-size: 22px;
+    }
+
+    .user-img {
+        max-width: 91px;
+        min-height: 90px;
+    }
+
+    h3.pb-3 {
+        font-size: 26px;
+    }
+
+    .summry-inner {
+        padding: 0px;
+    }
+
+    h3 {
+        font-size: 26.83px;
+    }
+
+    .user-details {
+        padding: 0px;
+    }
+
+    .order-summry {
+        justify-content: center !important;
+    }
+
+    .summry-inner ul li {
+        font-size: 16px;
+    }
+
+    section.addproducts.p-5 {
+        padding: 20px 0px !important;
+    }
+
+    .addproduct input[type="text"],
+    .addproduct input[type="file"],
+    textarea {
+        margin: 0px 0px 16px 0px;
+        padding: 7px;
+    }
+
+    header.admin-header {
+        padding: 16px;
+    }
+
+    .addproduct {
+        padding: 16px;
+    }
+
+    section.p-5.userprofile {
+        padding: 20px 0px !important;
+    }
+
+    .main-profile {
+        padding: 15px;
+    }
+
+    button.btn.btn-primary {
+        width: 100% !important;
+    }
+
+    .col-lg-5.d-flex.justify-content-end {
+        justify-content: left !important;
+        margin: 21px 0px;
+    }
+
+    .user-info button {
+        font-size: 10px;
+    }
+
+    .user-info h4 {
+        font-size: 18px;
+    }
+
+    .user-info h5 {
+        font-size: 14px;
+    }
+
+    .user-info h6 {
+        font-size: 14px;
+    }
+
+    button.btn.btn-primary.mt-3.w-25.py-3 {
+        margin: 19px 0px;
+        padding: 10px !important;
+    }
+
+    button.btn.btn-primary.w-100.mt-4.py-3 {
+        padding: 10px !important;
+    }
+}
+
+@media (min-width:575px) and (max-width:768px) {
+    header.admin-header {
+        padding: 16px;
+    }
+
+    .col-lg-5.d-flex.justify-content-end {
+        justify-content: left !important;
+        margin: 21px 0px;
+    }
+
+    section.p-5.userprofile {
+        padding: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width:768px) {
+    section.productlist.p-5 {
+        padding: 10px !important;
+    }
+
+     td.col {
+        padding: 0px !important;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    section.p-5 {
+        padding: 0px !important;
+    }
+
+}
+
+ table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+ table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+}
+
+ table tr {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+ table th,
+ table td {
+    padding: .625em;
+    text-align: center;
+}
+
+ table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+     table {
+        border: 0;
+    }
+
+     table caption {
+        font-size: 1.3em;
+    }
+
+     table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+     table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+     table td {
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    ul#accordionSidebar li a i {
+        padding-right: 10px;
+    }
+
+     table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+     table td:last-child {
+        border-bottom: 0;
+    }
+}
+
+.sidebar-heading {
+    color: #fff;
+    padding: 0px 18px;
+    font-size: 20px;
+}
+
+section.addproducts.p-5 .addproduct {
+    background: #e7e7e7;
+}
+
+
+a.sidebar-brand.d-flex.align-items-center.justify-content-center {
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+}
+
+.table table {
+    width: 100%;
+    border: 1px solid;
+}
+
+.profile-info.py-4 h6 {
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+}
+.row {
+    width: 100%;
+    margin: 0px;
+}

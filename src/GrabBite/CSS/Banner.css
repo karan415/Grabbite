@@ -1,0 +1,278 @@
+.grabbite_banner {
+    background: #361A05;
+    background-image: url('/src/Img/GrabbiteBanner.png');
+    background-size: cover;
+    background-position: bottom;
+    padding: 40px 0px 0px;
+}
+
+@media(min-width:1600px) and (max-width:2000px) {
+    .banner_content .food_image {
+        max-width: 155px;
+        right: -32px;
+        bottom: 11px;
+    }
+}
+
+@media(min-width:2000px) {
+    .banner_content .food_image {
+        right: -1%;
+        bottom: 21%;
+        max-width: 162px;
+    }
+
+    .grabbite_banner {
+        background-position: -144px bottom;
+        padding: 75px 0px 0px;
+        background-repeat: no-repeat;
+    }
+
+    .deliver.anything {
+        margin-top: -11px;
+    }
+
+
+}
+
+section.about-sec.py-5 .container-fluid {
+    float: left;
+    width: 100%;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 90px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.food_image {
+    position: absolute;
+    max-width: 120px;
+    right: -23px;
+    bottom: -13px;
+}
+
+.banner_bg {
+    position: relative;
+}
+
+.banner_content h5 {
+    color: #fff;
+    font-weight: 600;
+    padding: 6px 0px;
+}
+
+.banner_content input,
+.banner_content select {
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 0px 0px 10px;
+    padding-left: 25px;
+}
+
+button.btn.search_btns {
+    background: #ff8a17;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 12px 50px;
+    margin: 10px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.banner_content span {
+    padding: 12px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.banner_content {
+    max-width: 650px;
+}
+
+.deliver.anything {
+    background: #fff;
+    box-shadow: 0px 0px 10px -1px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.delivery_form input,
+.delivery_form select {
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.vector_img {
+    max-width: 326px;
+}
+
+section.grabbite_banner input::placeholder {
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.delivery_form label {
+    position: absolute;
+    top: 7px;
+    left: 12px;
+}
+
+.banner_content label {
+    position: absolute;
+    top: 12px;
+    left: 9px;
+}
+
+.relative {
+    position: relative;
+}
+
+.col.relative button {
+    width: 100%;
+}
+
+.d-flex.justify-content-between.align-items-center.form-content {
+    gap: 15px;
+}
+
+section.grabbite_banner svg {
+    color: #4f270b;
+}
+
+@media(max-width:767px) {
+    h1 {
+        font-size: 47px;
+    }
+    .bg-white.rounded-2 {
+        width: 100%;
+        overflow: scroll;
+    }
+    .banner_content h5 {
+        font-size: 20px;
+    }
+
+  button.btn.search_btns {
+    width: 100%;
+    font-size: 16px;
+}
+
+    label.datepik {
+        top: 16px;
+    }
+
+    .shared-tab-heading.rounded-3.mb-3 {
+        width: 100%;
+        overflow: scroll;
+    }
+.shared-tab-heading ul li {
+    display: flex;
+    align-items: center;
+}
+
+    section.grabbite_banner .react-datepicker-wrapper {
+        width: 100%;
+    }
+
+    .vector_img {
+        display: none;
+    }
+
+    .food_image {
+        display: none;
+    }
+
+    .banner_content span {
+        padding: 4px;
+    }
+
+    .form-content {
+        display: block !important;
+    }
+
+    .form-content input,
+    .form-content select {
+        width: 100%;
+        display: block;
+        margin: 10px 0px;
+    }
+
+    .delivery_form button.btn.search_btns {
+        width: 100%;
+    }
+
+    .grabbite_banner {
+        padding: 30px 0px;
+    }
+
+    .banner_bg {
+        padding: 0px;
+    }
+
+    .deliver.anything h4 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    section.grabbite_banner input::placeholder {
+        font-size: 15px;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1600px) {
+    .banner_content {
+        max-width: 582px;
+    }
+
+    button.btn.btn-success {
+        font-size: 12px;
+    }
+
+    .banner_content h1 {
+        font-size: 78px;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    
+    .deliver.anything {
+        padding: 5px;
+    }
+    .food_image {
+        max-width: 100px;
+        right: -75px;
+    }
+    .banner_content {
+        max-width: 420px;
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    .banner_content h1 {
+        font-size: 60px;
+    }
+    .banner_content h5 {
+        font-size: 25px;
+    }
+    button.btn.search_btns {
+        padding: 12px 34px;
+    }
+    
+}
+@media(min-width:992px) and (max-width:1024px){
+    .banner_content {
+        max-width: 480px;
+    }
+    
+    .food_image {
+        right: -46px;
+        bottom: -28px;
+    }
+}

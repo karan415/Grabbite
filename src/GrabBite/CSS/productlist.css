@@ -1,0 +1,296 @@
+.product_box1 h4 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28.34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.check_boxes label {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Poppins;
+    font-size: 20.34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.product_box1 {
+    border: 0px solid #000;
+    background: #FFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.product_box1 input[type="checkbox"] {
+    height: 25px;
+    width: 25px;
+    margin-right: 12px;
+}
+
+.check_boxes {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+
+/* rightbar css start here */
+.items_box1 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px !important;
+    width: 100%;
+    overflow: hidden;
+}
+
+.vegs_type {
+    max-width: 13px;
+}
+
+.rating {
+    max-width: 120px;
+}
+
+.dish_details h5 {
+    font-size: 20px;
+}
+
+h5.offer {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.order_details span {
+    font-size: 20px;
+}
+
+.cart_btn button.btn.btn-primary {
+    padding: 5px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.column_w16.col-md-3 {
+    padding: 0px;
+}
+
+.col25_inner img {
+    border-radius: 10px;
+}
+
+@media (max-width:575px) {
+    .column_w33.w-25 {
+        width: 100% !important;
+    }
+
+    .check_boxes label {
+        font-size: 16.34px;
+    }
+
+    .column_w75.w-75 {
+        width: 100% !important;
+    }
+
+    .product_box1 input[type="checkbox"] {
+        height: 18px;
+        width: 18px;
+    }
+
+    .items_box1.float_box {
+        display: block;
+        gap: 0px;
+        margin: 10px 0px;
+        padding: 20px;
+    }
+
+    .column_w16.w-25 {
+        width: 100% !important;
+    }
+
+    .column_w33.w_33 {
+        width: 100%;
+    }
+
+    .column_w25.w-25 {
+        width: 100% !important;
+    }
+
+    .column_w25.w_16 {
+        width: 100% !important;
+    }
+}
+
+@media(min-width:768px) and (max-width:1140px) {
+
+
+    section.ProductList_page.p-5 {
+        padding: 20px 0px !important;
+    }
+
+
+
+    .check_boxes label {
+        font-size: 15.34px;
+    }
+
+    section.ProductList_page .column_w33.col-md-3 {
+        padding: 0px;
+    }
+
+
+    section.ProductList_page .items_box1.my-4.row.justify-content-center.align-items-center {
+        justify-content: start !important;
+    }
+
+}
+
+@media (min-width:1024px) and (max-width:1600px) {
+    .cart_btn button.btn.btn-primary {
+        padding: 9px 11px;
+        font-size: 13.83px;
+        line-height: normal;
+    }
+
+    section.ProductList_page.p-5 {
+        padding: 30px 8px !important;
+    }
+
+    .rating {
+        max-width: 100px;
+    }
+
+    .dish_details h5 {
+        font-size: 16px;
+    }
+
+    .order_details span {
+        font-size: 16px;
+    }
+
+    h5.offer {
+        font-size: 15px;
+        padding-top: 6px;
+    }
+
+
+    .product_box1 input[type="checkbox"] {
+        height: 20px;
+        width: 20px;
+        margin-right: 6px;
+    }
+}
+
+.dish_description p {
+    line-break: auto;
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .column_w75.col-md-9 {
+        display: flex;
+        gap: 10px;
+    }
+
+    .items_box1 {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:680px) and (max-width:992px) {
+    .productlist_inner {
+        display: flex;
+        gap: 15px;
+    }
+
+    section.ProductList_page .column_w75.col-md-9 {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .check_boxes label {
+        font-size: 13.34px;
+    }
+
+    section.ProductList_page .column_w16.col-md-3 {
+        padding: 0px;
+        width: 100%;
+    }
+
+    section.ProductList_page .product_box1 input[type="checkbox"] {
+        height: 15px;
+        width: 15px;
+    }
+
+    section.ProductList_page .product_box1 {
+        padding: 10px;
+    }
+
+    section.ProductList_page .column_w33.col-md-3 {
+        padding: 5px;
+    }
+
+    section.ProductList_page .column_w33.w_33.col-md-4 {
+        width: 100%;
+    }
+
+    section.ProductList_page .column_w25.col-md-3 {
+        width: 100%;
+    }
+
+    section.ProductList_page .column_w25.col-md-2 {
+        width: 100%;
+    }
+
+    section.ProductList_page .column_w33.col-md-3 {
+        width: 33%;
+    }
+}
+
+@media (min-width:993px) and (max-width:1140px) {
+    .product_box1 {
+        padding: 10px;
+    }
+
+    .product_box1 input[type="checkbox"] {
+        height: 15px;
+        width: 15px;
+        margin-right: 11px;
+    }
+
+    .dish_description p {
+        font-size: 15px;
+    }
+
+    .dish_details h5 {
+        font-size: 16px;
+    }
+
+    section.ProductList_page .order_details span {
+        font-size: 16px;
+        line-break: anywhere;
+    }
+
+  section.ProductList_page .column_w33.w_33.col-md-4 {
+    padding: 0px 8px 0px 15px;
+}
+
+    section.ProductList_page .cart_btn button.btn.btn-primary {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    section.ProductList_page .column_w25 {
+        padding: 0px;
+    }
+}
+@media(min-width:1200px) and (max-width:1500px){
+    .check_boxes label {
+        font-size: 15.34px;
+    }
+}

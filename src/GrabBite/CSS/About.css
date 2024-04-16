@@ -1,0 +1,209 @@
+.custom-bgg img {
+    max-width: 745px;
+    border-radius: 13px;
+}
+
+.about-content ul li {
+    color: #000;
+    font-size: 20.83px;
+    font-weight: 700;
+    line-height: 38px;
+    padding-left: 13px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.custom-sec {
+    position: relative;
+}
+
+li.my-item {
+    list-style: none;
+    position: absolute;
+    font-size: 39px;
+    color: red;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+}
+
+
+
+.col.custom-sec {
+    position: relative;
+}
+
+
+.about-content li span {
+    background: #007519;
+    color: #fff;
+    border-radius: 100%;
+    padding: 4px 5px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    section.about-sec.py-5 .about-content {
+        padding: 30px 0px 0px;
+    }
+
+    section.about-sec.py-5 .about-content .row.align-items-center {
+        display: flex;
+    }
+
+    section.about-sec.py-5 .about-content .col-md-4.p-0.custom-sec {
+        width: 40%;
+    }
+
+   section.about-sec.py-5 .about-content .col-md-8.p-0.my-list {
+    width: 56%;
+}
+}
+
+
+@media (max-width:767px) {
+    .food-bg {
+        height: 214px;
+    }
+
+
+    li.my-item {
+        left: 44%;
+        top: 35%;
+    }
+
+    section.about-sec.py-5 .custom-about {
+        padding-left: 0px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 47px;
+        font-weight: 700;
+    }
+
+    .delecious.customr_delicious h1 {
+        font-size: 28px;
+    }
+
+    .delecious.customr_delicious h4 {
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0px;
+    }
+
+    .about-content {
+        max-width: 100% !important;
+        padding: 15px 0;
+    }
+
+
+    h5.about {
+        font-size: 33.83px;
+    }
+
+    .about-content ul li {
+        font-size: 31px;
+        left: 92px;
+        top: 38px;
+    }
+
+    .about-content ul li {
+        margin: 17px 0px;
+        padding: 0px;
+        line-height: normal;
+        font-size: 18px;
+    }
+
+    .col-6.float.my-list {
+        margin-top: 21px;
+        padding-left: 10px;
+    }
+
+    .about-content li span {
+        font-size: 10px;
+        margin-right: 6px;
+    }
+
+    .custom-sec img {
+        max-width: 100%;
+        height: 196px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+.custom-about {
+    padding-left: 30px;
+}
+
+@media(min-width:1024px) and (max-width:1600px) {
+    section.custom-popular .col.menubar {
+        max-width: 220px !important;
+    }
+
+    .about-content li {
+        font-size: 39.83px;
+        line-height: 54px;
+    }
+
+    section.custom-popular .tab-list ul li {
+        padding: 9px 43px !important;
+        font-size: 15px !important;
+    }
+
+    .about-content ul li {
+        font-size: 15.83px;
+        line-height: 37px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:1130px) {
+    .custom-bgg {
+        width: 47%;
+    }
+
+    h1 {
+        font-size: 56px !important;
+    }
+
+    section.custom-order.p-5 {
+        padding: 20px !important;
+    }
+
+    section.deal-section {
+        padding: 20px !important;
+    }
+
+    .custom-about {
+        width: 50%;
+        padding-left: 0px;
+    }
+
+    .row.max-contents {
+        align-items: start !important;
+    }
+
+    .about-content ul li {
+        font-size: 15px !important;
+        line-height: 31px;
+    }
+    h2 {
+        font-size: 36px !important;
+    }
+
+    li.my-item {
+        font-size: 26px;
+    }
+}
