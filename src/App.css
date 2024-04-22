@@ -939,3 +939,29 @@ section.py-5.page-not-found {
 .contentblog {
     text-align: left;
 }
+
+.blogsidebar_inner ul li {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    gap: 13px;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.blogsidebar_inner ul li img {
+    max-width: 60px;
+    height: 54px;
+    object-fit: contain;
+}
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 32%);
+}
+  .grid-item {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: stretch;
+}
