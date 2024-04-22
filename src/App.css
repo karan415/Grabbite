@@ -922,6 +922,12 @@ section.py-5.page-not-found {
     .your-address.my-3 {
         padding: 10px !important;
     }
+    section.blogpage .grid-container {
+        grid-template-columns: repeat(2, 48%);
+    }
+    .blogsidebar {
+        padding: 10px !important;
+    }
 }
 .contentblog h4 {
     font-size: 25px;
@@ -964,4 +970,19 @@ section.py-5.page-not-found {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: stretch;
+}
+@media(max-width:767px){
+    section.blogpage {
+        padding: 20px 0px !important;
+    }
+    
+    .grid-container.align-items-center.overflow-hidden {
+        grid-template-columns: repeat(1,100%);
+    }
+    .contentblog h4 {
+        font-size: 18px;
+    }
+    section.blogpage .row {
+        flex-direction: column-reverse;
+    }
 }
